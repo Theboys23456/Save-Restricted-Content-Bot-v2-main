@@ -22,7 +22,7 @@ API_HASH = os.getenv("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8133680149:AAElV3ya3AA3bjNgcwDWr8_JYmuOEvr3cUA")
 MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://herukobanna:ankit999@cluster0.xs772me.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "6126688051").split())) # list seperated via space
-DB_NAME = os.getenv("DB_NAME", "Deploy_python_Ai_chat_bot")
+DB_NAME = os.getenv("DB_NAME", "reportxcopybot")
 STRING = os.getenv("STRING", None) # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-1002528316008")) # optional with -100
 FORCE_SUB = int(os.getenv("FORCE_SUB", "-1002528316008")) # optional with -100
